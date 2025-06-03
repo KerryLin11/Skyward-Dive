@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df3bc9c78c28754dacfab3432cbbb2a, type: 3}
+  m_Name: Main_GrappleSettings
+  m_EditorClassIdentifier: 
+  initialSpring: 0
+  spring: 150
+  initialDamper: 25
+  damper: 50
+  rampUpDuration: 0.25
+  maxDistanceMultiplier: 0.2
+  minDistanceMultiplier: 0.1
+  tugVelocityThreshold: 1.5
+  tugImpulseStrength: 1500
+  dualTugExtraImpulse: 1500
+  dualTugWindow: 500
+  startGrappleHapticIntensity: 0.3
+  startGrappleHapticDuration: 0.1
+  tugHapticIntensity: 0.6
+  tugHapticDuration: 0.25
+  dualTugHapticIntensity: 1
+  dualTugHapticDuration: 0.25
